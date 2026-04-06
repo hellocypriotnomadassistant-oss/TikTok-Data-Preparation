@@ -7,3 +7,6 @@ This project focuses on cleaning and exploring TikTok dataset to prepare it for 
 * `TikTok_Data_Prep.ipynb`: Python notebook containing data cleaning and EDA.
 * `Executive_Summary.md`: Final report for stakeholders.
 EDA results indicate that claim videos receive significantly more views on average than opinion videos. This makes view count a primary feature for our classification model
+## 📄 Project Documentation
+You can find the detailed strategic planning and project reflections here:
+[View PACE Strategy Document (PDF)](./PACE_Strategy_Document.pdf)
