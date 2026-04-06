@@ -1,7 +1,9 @@
-# TikTok Data Preparation Project 📱
-Preparing raw TikTok video data for analysis by handling missing values and exploring data distributions.
-## Project Insights (PACE: Analyze & Construct)
+# TikTok Data Preparation Project 📊
 
-During the exploratory data analysis (EDA), I discovered the following:
-* **Data Summary:** I performed an initial data exploration and found that the average video duration is **36 seconds**.
-* **Data Quality:** I identified **2 missing values** in the `video_view_count` column, which represents 20% of the small sample size. These will be addressed in the data preparation phase.
+This project focuses on cleaning and exploring TikTok dataset to prepare it for a machine learning model that classifies videos as either **claims** or **opinions**.
+
+## Project Structure
+* `PACE_Strategy_Document.md`: Project planning and strategy.
+* `TikTok_Data_Prep.ipynb`: Python notebook containing data cleaning and EDA.
+* `Executive_Summary.md`: Final report for stakeholders.
+EDA results indicate that claim videos receive significantly more views on average than opinion videos. This makes view count a primary feature for our classification model
